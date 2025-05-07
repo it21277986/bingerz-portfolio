@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Business Analyst Portfolio",
+  title: "Binguni Sanjana",
   description: "Professional portfolio showcasing business analysis expertise and projects",
 };
 
