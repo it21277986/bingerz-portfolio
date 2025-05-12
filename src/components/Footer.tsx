@@ -24,7 +24,7 @@ const Footer = () => {
     {
       name: 'Email',
       icon: FaEnvelope,
-      url: 'mailto:your.email@example.com',
+      url: 'mailto:sanjanapmb@gmail.com',
     },
   ]
 
@@ -54,10 +54,10 @@ const Footer = () => {
             Let&apos;s connect and discuss how I can help with your business needs
             </p>
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:sanjanapmb@gmail.com"
               className="text-blue-400 hover:text-blue-300 transition-colors"
             >
-              your.email@example.com
+              sanjanapmb@gmail.com
             </a>
           </div>
           <div className="mt-8 text-gray-500 text-sm">
