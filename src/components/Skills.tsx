@@ -4,12 +4,6 @@ import { motion } from 'framer-motion'
 import { FaDatabase, FaChartLine, FaTools, FaComments } from 'react-icons/fa'
 
 const skills = {
-  'Data Analysis': [
-    { name: 'SQL', level: 90 },
-    { name: 'Excel', level: 95 },
-    { name: 'Power BI', level: 85 },
-    { name: 'Tableau', level: 80 },
-  ],
   'Business Tools': [
     { name: 'JIRA', level: 90 },
     { name: 'Confluence', level: 85 },
@@ -27,6 +21,12 @@ const skills = {
     { name: 'Waterfall', level: 85 },
     { name: 'Scrum', level: 85 },
     { name: 'BPMN', level: 80 },
+  ],
+    'Data Analysis': [
+    { name: 'SQL', level: 90 },
+    { name: 'Excel', level: 95 },
+    { name: 'Power BI', level: 85 },
+    { name: 'Tableau', level: 80 },
   ],
 }
 

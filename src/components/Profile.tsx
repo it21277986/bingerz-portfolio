@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 
 const Profile = () => {
   return (
-    <section id="profile" className="min-h-screen flex items-center py-20">
+    <section id="profile" className="flex items-center py-20">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -15,7 +15,7 @@ const Profile = () => {
         >
           {/* Left: Profile Section */}
           <div className="w-full md:w-1/2">
-            <div className="relative w-70 h-70 rounded-full overflow-hidden mx-auto md:mx-0">
+            <div className="relative w-100 h-100 rounded-full overflow-hidden mx-auto md:mx-0">
               <Image
                 src="/profile-placeholder.jpg"
                 alt="Profile"
@@ -37,7 +37,7 @@ const Profile = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.3 }}
-                className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-6"
+                className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 mb-6"
               >
                 Associate Business Analyst
               </motion.h2>
