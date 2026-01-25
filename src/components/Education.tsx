@@ -5,25 +5,39 @@ import { FaGraduationCap } from 'react-icons/fa'
 
 const education = [
   {
-    degree: 'Master of Business Administration (MBA)',
-    school: 'University of Business Excellence',
-    duration: '2014 - 2016',
-    description: 'Specialized in Business Analytics and Information Systems',
+    degree: 'BSc (Hons) in Information Technology  – Second Class',
+    school: 'Sri Lanka Institute of Information Technology (SLIIT)',
+    duration: 'July 2021 - Dec 2025',
+    description: 'Specialising in Information Technology',
     achievements: [
-      'Graduated with Distinction',
-      'Member of Business Analytics Club',
-      'Completed capstone project on Enterprise Resource Planning',
+      '',
     ],
   },
   {
-    degree: 'Bachelor of Science in Business Administration',
-    school: 'State University',
-    duration: '2010 - 2014',
+    degree: 'Certificate in Computer Science',
+    school: 'National Institute of Business Management (NIBM)',
+    duration: 'Nov 2020 - March 2021',
     description: 'Major in Management Information Systems',
     achievements: [
-      'Dean\'s List for Academic Excellence',
-      'Business Case Competition Winner',
-      'Internship at Fortune 500 Company',
+      '',
+    ],
+  },
+  {
+    degree: 'Foundation Course in Human Resource Management',
+    school: 'Chartered Institute of Personal Management Sri Lanka (CIPM)',
+    duration: 'Sep 2019 - Dec 2019',
+    description: 'Major in Management Information Systems',
+    achievements: [
+      '',
+    ],
+  },
+  {
+    degree: 'G.C.E Advanced Level',
+    school: 'Anula Vidyalaya Nugegoda',
+    duration: 'Jan 2006 - Aug 2020',
+    description: 'Studied in Physical Science Stream',
+    achievements: [
+      '',
     ],
   },
 ]

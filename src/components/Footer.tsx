@@ -1,6 +1,6 @@
 'use client'
 
-import { FaLinkedin, FaGithub, FaTwitter, FaEnvelope } from 'react-icons/fa'
+import { FaLinkedin, FaGithub, FaTwitter, FaEnvelope, FaWhatsapp } from 'react-icons/fa'
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
@@ -9,17 +9,17 @@ const Footer = () => {
     {
       name: 'LinkedIn',
       icon: FaLinkedin,
-      url: 'https://linkedin.com/in/yourprofile',
+      url: 'https://www.linkedin.com/in/binguni-sanjana-74a06922b/',
     },
     {
       name: 'GitHub',
       icon: FaGithub,
-      url: 'https://github.com/yourusername',
+      url: 'https://github.com/bingers00',
     },
     {
-      name: 'Twitter',
-      icon: FaTwitter,
-      url: 'https://twitter.com/yourhandle',
+      name: 'WhatsApp',
+      icon: FaWhatsapp,
+      url: 'https://wa.me/94717422213',
     },
     {
       name: 'Email',
