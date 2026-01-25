@@ -1,6 +1,6 @@
 'use client'
 
-import { useMemo } from 'react'
+import { useMemo, useState, useEffect } from 'react'
 
 const randomColor = () => {
   const colors = [
@@ -17,10 +17,17 @@ const randomColor = () => {
 }
 
 const Bubbles = () => {
-  // Only generate bubbles on the client
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
+  // Only generate bubbles on the client to avoid hydration mismatch
   const bubbles = useMemo(
-    () =>
-      Array.from({ length: 25 }, (_, i) => ({
+    () => {
+      if (!mounted) return []
+      return Array.from({ length: 25 }, (_, i) => ({
         id: i,
         size: 10 + Math.random() * 30,
         left: Math.random() * 100,
@@ -28,9 +35,14 @@ const Bubbles = () => {
         duration: 10 + Math.random() * 20,
         opacity: 0.2 + Math.random() * 0.3,
         color: randomColor(),
-      })),
-    []
+      }))
+    },
+    [mounted]
   )
+
+  if (!mounted) {
+    return null
+  }
 
   return (
     <div className="absolute inset-0 z-0 pointer-events-none">
