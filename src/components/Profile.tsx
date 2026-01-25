@@ -15,7 +15,7 @@ const Profile = () => {
         >
           {/* Left: Profile Section */}
           <div className="w-full md:w-1/2">
-            <div className="relative w-100 h-100 rounded-full overflow-hidden mx-auto md:mx-0">
+            <div className="relative w-64 h-64 rounded-full overflow-hidden mx-auto md:mx-0">
               <Image
                 src="/profile-placeholder.jpg"
                 alt="Profile"
@@ -47,7 +47,7 @@ const Profile = () => {
                 transition={{ duration: 0.5, delay: 0.4 }}
               >
                 <a
-                  href="/cv.pdf"
+                  href="https://drive.google.com/file/d/1WKjFa3sA7SDeiz4xU37eEEI0GPfwar5C/view?usp=sharing"
                   download
                   className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
                 >

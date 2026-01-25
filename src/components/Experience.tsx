@@ -5,9 +5,9 @@ import { FaBriefcase } from 'react-icons/fa'
 
 const experiences = [
   {
-    title: 'Senior Business Analyst',
-    company: 'Tech Solutions Inc.',
-    duration: '2020 - Present',
+    title: 'Associate Business Analyst',
+    company: 'Axcertro Pvt Ltd',
+    duration: 'Jan 2025 - Present',
     responsibilities: [
       'Lead requirements gathering and analysis for enterprise-wide digital transformation projects',
       'Develop and maintain business process models using BPMN',
@@ -17,9 +17,9 @@ const experiences = [
     ],
   },
   {
-    title: 'Business Analyst',
-    company: 'Global Innovations Ltd.',
-    duration: '2018 - 2020',
+    title: 'Business Analyst Intern',
+    company: 'Axcertro Pvt Ltd',
+    duration: 'June 2024 – Dec 2024',
     responsibilities: [
       'Analyzed business processes and identified improvement opportunities',
       'Created detailed functional specifications and user stories',
@@ -29,9 +29,9 @@ const experiences = [
     ],
   },
   {
-    title: 'Junior Business Analyst',
-    company: 'Digital Systems Corp.',
-    duration: '2016 - 2018',
+    title: 'Freelance Business Analyst (Part Time)',
+    company: 'Jx Tech USA',
+    duration: 'Jan 2025 – Dec 2025',
     responsibilities: [
       'Assisted in gathering and documenting business requirements',
       'Created process flow diagrams and user interface mockups',

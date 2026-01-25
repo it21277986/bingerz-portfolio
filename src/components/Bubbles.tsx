@@ -49,24 +49,6 @@ const Bubbles = () => {
           }}
         />
       ))}
-
-      <style jsx>{`
-        @keyframes bubble {
-          0% {
-            transform: translateY(0) scale(1);
-            opacity: 0.2;
-          }
-          100% {
-            transform: translateY(-100vh) scale(1.5);
-            opacity: 0;
-          }
-        }
-        .animate-bubble {
-          animation-name: bubble;
-          animation-timing-function: linear;
-          animation-iteration-count: infinite;
-        }
-      `}</style>
     </div>
   )
 }
